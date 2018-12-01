@@ -41,3 +41,5 @@ println(s"Within Set Sum of Squared Errors = $cost")
 println("Cluster Centers: ")
 val centers = model.clusterCenters
 centers.foreach(println)
+
+display(model,transformado)
