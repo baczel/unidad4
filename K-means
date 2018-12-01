@@ -41,5 +41,4 @@ println(s"Silhouette with squared euclidean distance = $silhouette")
 println("Cluster Centers: ")
 model.clusterCenters.foreach(println)
 
-
-
+display(model,transformado)
